@@ -1,58 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Spring Boot HTML Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Jenkins CI/CD Demo</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #eef2f3;
         margin: 0;
         padding: 0;
       }
 
       h1 {
         text-align: center;
-        color: #333;
-        margin-top: 100px;
+        color: #2c3e50;
+        margin-top: 80px;
       }
 
       p {
         text-align: center;
-        color: #666;
+        color: #555;
+        font-size: 18px;
       }
 
       .container {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 40px;
       }
 
       .btn {
-        background-color: #007bff;
+        background-color: #28a745;
         color: #fff;
-        padding: 10px 20px;
+        padding: 12px 25px;
         text-decoration: none;
-        border-radius: 5px;
+        border-radius: 6px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
       }
 
       .btn:hover {
-        background-color: #0056b3;
+        background-color: #1e7e34;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 80px;
+        color: #888;
+        font-size: 14px;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to Jenkins Tutorial for Master DevOps and Cloud!</h1>
+      <h1>🚀 Welcome to My Jenkins CI/CD Demo!</h1>
       <p>
-        Welcome to Jenkins CI/CD Pipeline for Spring Boot Microservice
-        application deployed to Kubernetes using Helm
+        This Spring Boot application is automatically built and deployed using
+        <strong>Jenkins</strong>, <strong>Maven</strong>, and
+        <strong>Docker</strong>.
       </p>
       <p>
-        Docker - Minikube - Kubectl - Maven - SonarQube - Trivy - ArgoCD - Slack
-        - Webhook - ngRok - Jenkins - Helm
+        Technologies used: Docker 🐳 | Maven ⚙️ | Kubernetes ☸️ | Helm ⎈ |
+        Jenkins 🧩 | SonarQube 🔍 | Trivy 🛡️ | ArgoCD 🚢
       </p>
       <div>
-        <a class="btn" href="#">Learn More</a>
+        <a class="btn" href="#">View Pipeline Details</a>
       </div>
     </div>
+
+    <footer>
+      <p>Created by <strong>Yathrouba Difallah</strong> — Jenkins Demo Project</p>
+    </footer>
   </body>
 </html>
